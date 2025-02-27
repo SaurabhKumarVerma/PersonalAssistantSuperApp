@@ -1,0 +1,29 @@
+{
+  "name": "PersonalAssistant",
+  "version": "0.0.1",
+  "description": "This AI-Powered Personal Assistant Super App is designed to enhance productivity and simplify daily tasks through AI-driven automation.",
+  "main": "index.js",
+  "author": "saurabh",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "themes/*",
+    "utils/*"
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.x.x",
+    "@react-navigation/native": "^6.x.x",
+    "expo": "~52.0.37",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-safe-area-context": "^4.x.x",
+    "react-native-screens": "^3.x.x"
+  }
+}

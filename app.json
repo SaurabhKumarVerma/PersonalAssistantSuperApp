@@ -1,0 +1,8 @@
+{
+  "android": {
+    "package": "com.saurabh7071.personalassistant"
+  },
+  "ios": {
+    "bundleIdentifier": "com.saurabh7071.personalassistant"
+  }
+}
