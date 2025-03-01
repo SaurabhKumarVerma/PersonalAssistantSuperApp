@@ -1,0 +1,1 @@
+import {default as ESCREEN_NAME} from './screenName'

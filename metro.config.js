@@ -1,4 +1,7 @@
 const { getDefaultConfig } = require('expo/metro-config');
+const {
+  wrapWithReanimatedMetroConfig,
+} = require('react-native-reanimated/metro-config');
 const path = require('path');
 
 // Find the project and workspace directories
@@ -25,4 +28,4 @@ config.resolver.extraNodeModules = {
   'base': path.resolve(projectRoot, 'packages/base')
 };
 
-module.exports = config;
+module.exports = wrapWithReanimatedMetroConfig(config);

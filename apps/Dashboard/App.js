@@ -3,7 +3,7 @@ import DashboardTabs from './navigation/DashboardTabs';
 
 export default function App() {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Dashboard</Text>
       {/* <DashboardTabs /> */}
     </View>
@@ -13,11 +13,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-    position: 'absolute',
-    top: 0,
-    bottom: 0,
+    backgroundColor: '#000000',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
